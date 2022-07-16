@@ -7,7 +7,7 @@ create table if not exists Marca (
 create table if not exists Entidade (
   id serial primary key,
   nome varchar(30) not null,
-  origem date
+  origem varchar(30)
 );
 
 create table if not exists Treinador (
@@ -34,7 +34,7 @@ create table if not exists AuxiliarTecnico (
 create table if not exists Clube (
   id serial primary key,
   nome varchar(50) not null,
-  ano_de_fundacao date,
+  data_de_fundacao date,
   localizacao varchar(50),
   id_marca int not null,
   foreign key (id_marca) references Marca(id)
@@ -69,7 +69,7 @@ create table if not exists Estadio (
   id serial primary key,
   nome varchar(50) not null,
   capacidade int not null,
-  endereco date,
+  endereco varchar(100),
   id_clube int not null,
   foreign key (id_clube) references Clube(id)
 );
@@ -77,7 +77,7 @@ create table if not exists Estadio (
 create table if not exists Arbitro (
   id serial primary key,
   nome varchar(30) not null,
-  fifa BOOL not null,
+  fifa boolean not null,
   data_de_nascimento date not null
 );
 
@@ -93,8 +93,6 @@ create table if not exists Partida (
   clube_campeonato_mandante int not null,
   clube_campeonato_visitante int not null,
   id_arbitro int not null,
-  id_estadio int not null,
-  foreign key (id_estadio) references Estadio(id),
   foreign key (id_arbitro) references Arbitro(id),
   foreign key (clube_campeonato_mandante) references ClubeCampeonato(id),
   foreign key (clube_campeonato_visitante) references ClubeCampeonato(id)
@@ -130,6 +128,7 @@ create table if not exists JogadorPosicao (
 
 create table if not exists Atuacao (
   id serial primary key,
+  mandante boolean not null,
   id_jogador int not null,
   id_partida int not null,
   id_atuacao_substitui int,
@@ -165,7 +164,7 @@ create table if not exists Assistencia (
 create table if not exists Gol (
   id serial primary key,
   minuto timestamp not null,
-  penalti bool not null,
+  penalti boolean not null,
   id_atuacao int not null,
   id_assistencia int,
   foreign key (id_atuacao) references Atuacao(id),
