@@ -84,5 +84,5 @@ Foi criado um índice de árvore B, já que a query é em cima de um intervalo
 
 Foi criado um índice de árvore B, já que a query é em cima de um intervalo
 
-- [Minuto do Gol](https://github.com/dlcaio/trabalho-bd2/blob/main/sql/create/indexes/capacidade.sql)
+- [Minuto do Gol](https://github.com/dlcaio/trabalho-bd2/blob/main/sql/create/indexes/minuto_gol.sql)
 
