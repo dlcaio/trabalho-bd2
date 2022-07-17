@@ -1,4 +1,4 @@
--- Selecionar goleiros menos vazados
+-- Selecionar goleiro menos vazado
 select
   Jogador.nome
 from

@@ -58,7 +58,7 @@ Quarta Rodada:
 
 - [Setor de Posições](https://github.com/dlcaio/trabalho-bd2/blob/main/sql/create/indexes/setor_posicao.sql)
 
-### 5. [Selecionar goleiros menos vazados](https://github.com/dlcaio/trabalho-bd2/blob/main/sql/queries/5.sql)
+### 5. [Selecionar goleiro menos vazado](https://github.com/dlcaio/trabalho-bd2/blob/main/sql/queries/5.sql)
 
 ### 6. [Jogador que mais sofreu faltas](https://github.com/dlcaio/trabalho-bd2/blob/main/sql/queries/6.sql)
 
