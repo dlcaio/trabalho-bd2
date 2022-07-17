@@ -26,7 +26,13 @@ Quarta Rodada:
 - Corinthians (id = 1) x Internacional (id = 4)
 - RB Bragantino (id = 5) x Fluminense (id = 3)
 
-## Stored Procedures (Funções)
+## Funções/Stored Procedures
+
+### 1. [Artilheiro do Campeonato](https://github.com/dlcaio/trabalho-bd2/blob/main/sql/create/functions/artilheiro_campeonato.sql)
+
+### 2. [Artilheiro do Time](https://github.com/dlcaio/trabalho-bd2/blob/main/sql/create/functions/artilheiro_time.sql)
+
+### 3. [Lider de Assistências do campeonato](https://github.com/dlcaio/trabalho-bd2/blob/main/sql/create/functions/lider_assistencias_campeonato.sql)
 
 ## Triggers
 
@@ -34,16 +40,26 @@ Quarta Rodada:
 
 ## Consultas
 
-1. [Jogadores na terceira partida do campeonato](https://github.com/dlcaio/trabalho-bd2/blob/main/sql/queries/1.sql)
-2. [Jogadores na terceira partida do campeonato](https://github.com/dlcaio/trabalho-bd2/blob/main/sql/queries/2.sql)
-3. [Jogadores na terceira partida do campeonato](https://github.com/dlcaio/trabalho-bd2/blob/main/sql/queries/3.sql)
-4. [Jogadores na terceira partida do campeonato](https://github.com/dlcaio/trabalho-bd2/blob/main/sql/queries/4.sql)
-5. [Jogadores na terceira partida do campeonato](https://github.com/dlcaio/trabalho-bd2/blob/main/sql/queries/5.sql)
-6. [Jogadores na terceira partida do campeonato](https://github.com/dlcaio/trabalho-bd2/blob/main/sql/queries/6.sql)
-7. [Jogadores na terceira partida do campeonato](https://github.com/dlcaio/trabalho-bd2/blob/main/sql/queries/7.sql)
-8. [Jogadores na terceira partida do campeonato](https://github.com/dlcaio/trabalho-bd2/blob/main/sql/queries/8.sql)
-9. [Jogadores na terceira partida do campeonato](https://github.com/dlcaio/trabalho-bd2/blob/main/sql/queries/9.sql)
-10. [Jogadores na terceira partida do campeonato](https://github.com/dlcaio/trabalho-bd2/blob/main/sql/queries/10.sql)
+### 1. [Jogadores na terceira partida do campeonato](https://github.com/dlcaio/trabalho-bd2/blob/main/sql/queries/1.sql)
 
+#### Índice Criado
 
-## Índices
+### 2. [Árbitro que mais aplicou cartão](https://github.com/dlcaio/trabalho-bd2/blob/main/sql/queries/2.sql)
+
+### 3. [Média de publico do Corinthians](https://github.com/dlcaio/trabalho-bd2/blob/main/sql/queries/3.sql)
+
+#### Índice Criado
+
+- [Nome do Jogador](https://github.com/dlcaio/trabalho-bd2/blob/main/sql/create/indexes/nome_clube.sql)
+
+### 4. [Selecionar todos os meio campistas](https://github.com/dlcaio/trabalho-bd2/blob/main/sql/queries/4.sql)
+
+#### Índice Criado
+
+- [Setor de Posições](https://github.com/dlcaio/trabalho-bd2/blob/main/sql/create/indexes/setor_posicao.sql)
+
+### 5. [Selecionar goleiros menos vazados](https://github.com/dlcaio/trabalho-bd2/blob/main/sql/queries/5.sql)
+
+### 6. [Jogador que mais sofreu faltas](https://github.com/dlcaio/trabalho-bd2/blob/main/sql/queries/6.sql)
+
+### 7. [Placar da primeira partida](https://github.com/dlcaio/trabalho-bd2/blob/main/sql/queries/7.sql)
