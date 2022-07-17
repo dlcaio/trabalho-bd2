@@ -34,7 +34,16 @@ Quarta Rodada:
 
 ## Consultas
 
-1. [a link](https://github.com/user/repo/blob/branch/other_file.md)
+1. [Jogadores na terceira partida do campeonato](https://github.com/dlcaio/trabalho-bd2/blob/main/sql/queries/1.sql)
+2. [Jogadores na terceira partida do campeonato](https://github.com/dlcaio/trabalho-bd2/blob/main/sql/queries/2.sql)
+3. [Jogadores na terceira partida do campeonato](https://github.com/dlcaio/trabalho-bd2/blob/main/sql/queries/3.sql)
+4. [Jogadores na terceira partida do campeonato](https://github.com/dlcaio/trabalho-bd2/blob/main/sql/queries/4.sql)
+5. [Jogadores na terceira partida do campeonato](https://github.com/dlcaio/trabalho-bd2/blob/main/sql/queries/5.sql)
+6. [Jogadores na terceira partida do campeonato](https://github.com/dlcaio/trabalho-bd2/blob/main/sql/queries/6.sql)
+7. [Jogadores na terceira partida do campeonato](https://github.com/dlcaio/trabalho-bd2/blob/main/sql/queries/7.sql)
+8. [Jogadores na terceira partida do campeonato](https://github.com/dlcaio/trabalho-bd2/blob/main/sql/queries/8.sql)
+9. [Jogadores na terceira partida do campeonato](https://github.com/dlcaio/trabalho-bd2/blob/main/sql/queries/9.sql)
+10. [Jogadores na terceira partida do campeonato](https://github.com/dlcaio/trabalho-bd2/blob/main/sql/queries/10.sql)
 
 
 ## Índices
