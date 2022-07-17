@@ -155,13 +155,6 @@ create table if not exists Cartao (
   foreign key (id_atuacao) references Atuacao(id)
 );
 
-create table if not exists Assistencia (
-  id serial primary key,
-  minuto int not null,
-  id_atuacao int not null,
-  foreign key (id_atuacao) references Atuacao(id)
-);
-
 create table if not exists Gol (
   id serial primary key,
   minuto int not null,
