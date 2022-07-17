@@ -52,7 +52,6 @@ create table if not exists ClubeCampeonato (
   id serial primary key,
   id_campeonato int not null,
   id_clube int not null,
-  pontuacao int default 0,
   foreign key (id_campeonato) references Campeonato(id),
   foreign key (id_clube) references Clube(id)
 );
