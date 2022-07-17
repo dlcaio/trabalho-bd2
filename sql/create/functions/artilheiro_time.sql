@@ -1,10 +1,11 @@
-CREATE OR REPLACE FUNCTION artilheiro_time(varchar) RETURNS integer AS $$
+drop function artilheiro_time;
+CREATE OR REPLACE FUNCTION artilheiro_time(varchar) RETURNS varchar AS $$
 DECLARE
    parametro_time ALIAS FOR $1;
-   artilheiro int;
+   artilheiro varchar;
 BEGIN
 
-  select Jogador.id into artilheiro
+  select Jogador.nome into artilheiro
 from
   Jogador
   join Atuacao on Jogador.id = Atuacao.id_jogador
@@ -14,7 +15,7 @@ from
   join Clube on Clube.id = ClubeCampeonato.id_clube
 where
   Clube.nome = parametro_time
-group by Jogador.id
+group by Jogador.nome
 order by count(*) desc
 limit 1;
 return artilheiro;

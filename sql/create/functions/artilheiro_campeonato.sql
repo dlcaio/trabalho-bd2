@@ -1,9 +1,9 @@
-CREATE OR REPLACE FUNCTION artilheiro_campeonato(varchar) RETURNS integer AS $$
+CREATE OR REPLACE FUNCTION artilheiro_campeonato(varchar) RETURNS varchar AS $$
 DECLARE
    parametro_campeonato ALIAS FOR $1;
-   artilheiro int;
+   artilheiro varchar;
 BEGIN
-  select Jogador.id into artilheiro
+  select Jogador.nome into artilheiro
 from
   Jogador
   join Atuacao on Jogador.id = Atuacao.id_jogador
@@ -13,7 +13,7 @@ from
   join Campeonato on Campeonato.id = ClubeCampeonato.id_campeonato
 where
   Campeonato.nome = parametro_campeonato
-group by Jogador.id
+group by Jogador.nome
 order by count(*) desc
 limit 1;
 return artilheiro;
