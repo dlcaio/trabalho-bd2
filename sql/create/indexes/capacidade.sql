@@ -1,0 +1,1 @@
+CREATE INDEX IF NOT EXISTS capacidade ON Estadio (capacidade);

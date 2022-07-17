@@ -38,6 +38,4 @@ drop table if exists Falta cascade;
 
 drop table if exists Cartao cascade;
 
-drop table if exists Assistencia cascade;
-
 drop table if exists Gol cascade;

@@ -62,4 +62,10 @@ Quarta Rodada:
 
 ### 6. [Jogador que mais sofreu faltas](https://github.com/dlcaio/trabalho-bd2/blob/main/sql/queries/6.sql)
 
-### 7. [Placar da primeira partida](https://github.com/dlcaio/trabalho-bd2/blob/main/sql/queries/7.sql)
+### 8. [Jogadores com mais de 2 gols](https://github.com/dlcaio/trabalho-bd2/blob/main/sql/queries/8.sql)
+
+### 9. [Estádios com capacidade maior que 50000 pessoas](https://github.com/dlcaio/trabalho-bd2/blob/main/sql/queries/9.sql)
+
+#### Índice Criado
+
+- [Capacidade](https://github.com/dlcaio/trabalho-bd2/blob/main/sql/create/indexes/capacidade.sql)
