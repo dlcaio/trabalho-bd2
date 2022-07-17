@@ -2,10 +2,32 @@
 
 Trabalho realizado pelo aluno Caio Della Libera utilizando Postgres
 
+## TODO
+
+- [ ] Terminar Funções/SP
+- [ ] Implementar Triggers
+- [x] Ajustar modelo conceitual
+- [x] Remover coluna pontuacao
+
+
 ## Modelo Conceitual
+
+A primeira versão do Modelo Conceitual - incompleta e com alguns erros - pode ser vista na figura abaixo:
+
+![V1](https://github.com/dlcaio/trabalho-bd2/blob/main/images/ER-initial-bw.png)
+
+A versão final do Modelo Conceitual, com adições e correções, pode ser vista abaixo:
+
+![V2](https://github.com/dlcaio/trabalho-bd2/blob/main/images/ER.png)
+
 
 ## Esquema Relacional
 
+- [Criação de Tabelas](https://github.com/dlcaio/trabalho-bd2/blob/main/sql/create/tables.sql)
+
+- [População de Tabelas](https://github.com/dlcaio/trabalho-bd2/blob/main/sql/populateTables.sql)
+
+<!--
 Primeira Rodada:
 - Corinthians (id = 1) x Palmeiras (id = 2)
 - Fluminense (id = 3) x Internacional (id = 4)
@@ -16,6 +38,7 @@ Segunda Rodada:
 - Palmeiras (id = 2) x Fluminense (id = 3)
 - Internacional (id = 4) x RB Bragantino (id = 5)
 
+
 Terceira Rodada:
 - RB Bragantino (id = 5) x Palmeiras (id = 2)
 - Fluminense (id = 3) x Corinthians (id = 1)
@@ -25,7 +48,7 @@ Quarta Rodada:
 - Palmeiras (id = 2) x Cuiabá (id = 6)
 - Corinthians (id = 1) x Internacional (id = 4)
 - RB Bragantino (id = 5) x Fluminense (id = 3)
-
+-->
 ## Funções/Stored Procedures
 
 ### 1. [Artilheiro do Campeonato](https://github.com/dlcaio/trabalho-bd2/blob/main/sql/create/functions/artilheiro_campeonato.sql)
