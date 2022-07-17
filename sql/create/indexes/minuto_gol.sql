@@ -1,0 +1,1 @@
+CREATE INDEX IF NOT EXISTS minuto_gol ON Gol (minuto);

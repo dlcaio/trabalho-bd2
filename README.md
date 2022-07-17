@@ -50,11 +50,15 @@ Quarta Rodada:
 
 #### Índice Criado
 
+Foi criado um índice de Hash, já que a query é em cima de um valor exato
+
 - [Nome do Jogador](https://github.com/dlcaio/trabalho-bd2/blob/main/sql/create/indexes/nome_clube.sql)
 
 ### 4. [Selecionar todos os meio campistas](https://github.com/dlcaio/trabalho-bd2/blob/main/sql/queries/4.sql)
 
 #### Índice Criado
+
+Foi criado um índice de Hash, já que a query é em cima de um valor exato
 
 - [Setor de Posições](https://github.com/dlcaio/trabalho-bd2/blob/main/sql/create/indexes/setor_posicao.sql)
 
@@ -62,10 +66,23 @@ Quarta Rodada:
 
 ### 6. [Jogador que mais sofreu faltas](https://github.com/dlcaio/trabalho-bd2/blob/main/sql/queries/6.sql)
 
+### 7. [Placar da primeira partida](https://github.com/dlcaio/trabalho-bd2/blob/main/sql/queries/7.sql)
+
 ### 8. [Jogadores com mais de 2 gols](https://github.com/dlcaio/trabalho-bd2/blob/main/sql/queries/8.sql)
 
 ### 9. [Estádios com capacidade maior que 50000 pessoas](https://github.com/dlcaio/trabalho-bd2/blob/main/sql/queries/9.sql)
 
 #### Índice Criado
 
+Foi criado um índice de árvore B, já que a query é em cima de um intervalo
+
 - [Capacidade](https://github.com/dlcaio/trabalho-bd2/blob/main/sql/create/indexes/capacidade.sql)
+
+### 10. [Gols no Segundo Tempo](https://github.com/dlcaio/trabalho-bd2/blob/main/sql/queries/10.sql)
+
+#### Índice Criado
+
+Foi criado um índice de árvore B, já que a query é em cima de um intervalo
+
+- [Minuto do Gol](https://github.com/dlcaio/trabalho-bd2/blob/main/sql/create/indexes/capacidade.sql)
+
