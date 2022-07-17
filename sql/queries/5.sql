@@ -7,10 +7,9 @@ from
   join Partida on Partida.id = gk.id_partida
   join Atuacao ata on ata.id_partida = Partida.id
   join Gol on Gol.id_atuacao = ata.id
-  join JogadorPosicao on JogadorPosicao.id_jogador = Jogador.id
-  join Posicao on Posicao.id = JogadorPosicao.id_posicao
+  join id_jogador_nome_posicao on id_jogador_nome_posicao.id = Jogador.id
 where
-  Posicao.nome = 'Goleiro'
+  id_jogador_nome_posicao.nome = 'Goleiro'
   and (
     (
       ata.mandante = FALSE

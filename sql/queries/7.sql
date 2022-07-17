@@ -3,19 +3,17 @@ select
   count(*) as mandante
 from
   Gol
-  join Atuacao on Atuacao.id = Gol.id_atuacao
-  join Partida on Partida.id = Atuacao.id_partida
+  join partida_atuacao on Gol.id_atuacao = partida_atuacao.id_atuacao
 where
-  Partida.id = 1
-  and Atuacao.mandante = TRUE
+  partida_atuacao.id_partida = 1
+  and partida_atuacao.mandante = TRUE
 union
 all
 select
   count(*) as visitante
 from
   Gol
-  join Atuacao on Atuacao.id = Gol.id_atuacao
-  join Partida on Partida.id = Atuacao.id_partida
+  join partida_atuacao on Gol.id_atuacao = partida_atuacao.id_atuacao
 where
-  Partida.id = 1
-  and Atuacao.mandante = FALSE;
+  partida_atuacao.id_partida = 1
+  and partida_atuacao.mandante = FALSE

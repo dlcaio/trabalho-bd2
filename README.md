@@ -38,11 +38,17 @@ Quarta Rodada:
 
 ## Visões
 
+### 1. [Id de um jogador e suas posições](https://github.com/dlcaio/trabalho-bd2/blob/main/sql/create/views/id_jogador_nome_posicao.sql)
+
+- Essa visão foi utilizada na [Consulta 5](https://github.com/dlcaio/trabalho-bd2#5-selecionar-goleiro-menos-vazado)
+
+### 2. [Id de uma atuação, Id de uma partida, Mandante ou não de uma partida e Id do árbitro da partida](https://github.com/dlcaio/trabalho-bd2/blob/main/sql/create/views/partida_atuacao.sql)
+
+- Essa visão foi utilizada nas [Consulta 2](https://github.com/dlcaio/trabalho-bd2#2-%C3%A1rbitro-que-mais-aplicou-cart%C3%A3o) e [Consulta 7](https://github.com/dlcaio/trabalho-bd2#7-placar-da-primeira-partida)
+
 ## Consultas
 
 ### 1. [Jogadores na terceira partida do campeonato](https://github.com/dlcaio/trabalho-bd2/blob/main/sql/queries/1.sql)
-
-#### Índice Criado
 
 ### 2. [Árbitro que mais aplicou cartão](https://github.com/dlcaio/trabalho-bd2/blob/main/sql/queries/2.sql)
 
