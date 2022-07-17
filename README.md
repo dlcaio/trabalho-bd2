@@ -1,5 +1,7 @@
 # Trabalho da Disciplina Projeto de Banco de Dados para Sistemas de Informação
 
+Trabalho realizado pelo aluno Caio Della Libera utilizando Postgres
+
 ## Modelo Conceitual
 
 ## Esquema Relacional
@@ -32,15 +34,7 @@ Quarta Rodada:
 
 ## Consultas
 
-1. A
-2. B
-3. C
-4. D
-5. E
-6. F
-7. G
-8. H
-9. I
-10. J
+1. [a link](https://github.com/user/repo/blob/branch/other_file.md)
+
 
 ## Índices
