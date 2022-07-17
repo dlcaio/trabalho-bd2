@@ -52,6 +52,7 @@ create table if not exists ClubeCampeonato (
   id serial primary key,
   id_campeonato int not null,
   id_clube int not null,
+  pontuacao int default 0,
   foreign key (id_campeonato) references Campeonato(id),
   foreign key (id_clube) references Clube(id)
 );
@@ -90,6 +91,7 @@ create table if not exists ArbitroAuxiliar (
 create table if not exists Partida (
   id serial primary key,
   rodada int not null,
+  publico int not null,
   clube_campeonato_mandante int not null,
   clube_campeonato_visitante int not null,
   id_arbitro int not null,
@@ -139,7 +141,7 @@ create table if not exists Atuacao (
 
 create table if not exists Falta (
   id serial primary key,
-  minuto timestamp not null,
+  minuto int not null,
   id_atuacao_faltoso int not null,
   id_jogador_faltado int not null,
   foreign key (id_atuacao_faltoso) references Atuacao(id),
@@ -149,24 +151,24 @@ create table if not exists Falta (
 create table if not exists Cartao (
   id serial primary key,
   cor varchar(30) not null,
-  minuto timestamp not null,
+  minuto int not null,
   id_atuacao int not null,
   foreign key (id_atuacao) references Atuacao(id)
 );
 
 create table if not exists Assistencia (
   id serial primary key,
-  minuto timestamp not null,
+  minuto int not null,
   id_atuacao int not null,
   foreign key (id_atuacao) references Atuacao(id)
 );
 
 create table if not exists Gol (
   id serial primary key,
-  minuto timestamp not null,
+  minuto int not null,
   penalti boolean not null,
   id_atuacao int not null,
-  id_assistencia int,
+  id_assistente int,
   foreign key (id_atuacao) references Atuacao(id),
-  foreign key (id_assistencia) references Assistencia(id)
+  foreign key (id_assistente) references Jogador(id)
 );

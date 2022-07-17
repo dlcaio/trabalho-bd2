@@ -3,7 +3,6 @@ DECLARE
    parametro_campeonato ALIAS FOR $1;
    artilheiro int;
 BEGIN
-
   select Jogador.id into artilheiro
 from
   Jogador
