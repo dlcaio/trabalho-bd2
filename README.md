@@ -1,6 +1,14 @@
 # Trabalho da Disciplina Projeto de Banco de Dados para Sistemas de Informação
 
-Trabalho realizado pelo aluno Caio Della Libera utilizando Postgres
+Trabalho realizado pelo aluno Caio Della Libera utilizando Postgres.
+
+O BD está hospedado em um servidor do Heroku.
+
+A conexão é realizada com NodeJS através do cliente npm [pg](https://www.npmjs.com/package/pg).
+
+Para executar queries `.sql`, basta instalar a dependência pg com `npm i` depois `node query.js --sqlfile <CAMINHO DO ARQUIVO .SQL>`.
+
+A flag `--rows` pode ser passada no comando acima para comandos `SELECT`.
 
 ## Modelo Conceitual
 
