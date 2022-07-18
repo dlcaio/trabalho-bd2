@@ -116,6 +116,7 @@ create table if not exists Posicao (
 create table if not exists Jogador (
   id serial primary key,
   nome varchar(50) not null,
+  suspenso boolean default FALSE,
   data_de_nascimento date not null
 );
 
