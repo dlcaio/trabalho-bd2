@@ -2,14 +2,6 @@
 
 Trabalho realizado pelo aluno Caio Della Libera utilizando Postgres
 
-## TODO
-
-- [ ] Terminar Funções/SP
-- [ ] Implementar Triggers
-- [x] Ajustar modelo conceitual
-- [x] Remover coluna pontuacao
-
-
 ## Modelo Conceitual
 
 A primeira versão do Modelo Conceitual - incompleta e com alguns erros - pode ser vista na figura abaixo:
@@ -49,7 +41,7 @@ Quarta Rodada:
 - Corinthians (id = 1) x Internacional (id = 4)
 - RB Bragantino (id = 5) x Fluminense (id = 3)
 -->
-## Funções/Stored Procedures
+## Funções
 
 ### 1. [Artilheiro do Campeonato](https://github.com/dlcaio/trabalho-bd2/blob/main/sql/create/functions/artilheiro_campeonato.sql)
 
@@ -57,7 +49,17 @@ Quarta Rodada:
 
 ### 3. [Lider de Assistências do campeonato](https://github.com/dlcaio/trabalho-bd2/blob/main/sql/create/functions/lider_assistencias_campeonato.sql)
 
+### 4. [Adiciona Suspensão (função do Trigger 1)](https://github.com/dlcaio/trabalho-bd2/blob/main/sql/create/functions/adiciona_suspensao.sql)
+
+### 5. [<<<< NÃO FUNCIONAL >>>> Impede Atuação de Jogador Suspenso (função de Trigger 2)](https://github.com/dlcaio/trabalho-bd2/blob/main/sql/create/functions/impede_atuacao_suspenso.sql)
+
+
 ## Triggers
+
+### 1. [Suspensão](https://github.com/dlcaio/trabalho-bd2/blob/main/sql/create/triggers/suspensao.sql)
+
+### 2. [<<<< NÃO FUNCIONAL >>>> Insere Atuação](https://github.com/dlcaio/trabalho-bd2/blob/main/sql/create/triggers/insere_atuacao.sql)
+
 
 ## Visões
 
