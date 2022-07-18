@@ -16,7 +16,19 @@
  Posicao.setor = 'Meio Campo';
 */
 
-select avg(Partida.publico) as media from Partida
-join ClubeCampeonato on ClubeCampeonato.id_clube = Partida.clube_campeonato_mandante
-join Clube on Clube.id = ClubeCampeonato.id_clube
-where Clube.nome = 'Corinthians';
+-- select * from Jogador;
+/*
+insert into
+  Atuacao(
+    id_jogador,
+    mandante,
+    id_partida,
+    id_atuacao_substitui
+  )
+values
+  (6, FALSE, 1, NULL);
+*/
+
+-- select * from Atuacao where id_jogador = 6;
+
+-- delete from Atuacao  where Atuacao.id = 51;
