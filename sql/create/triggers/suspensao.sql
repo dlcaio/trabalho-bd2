@@ -1,4 +1,4 @@
-CREATE TRIGGER suspensao before
+CREATE TRIGGER suspensao
+AFTER
 INSERT
-  ON Gol for each row
-  WHEN (NEW.minuto = (select * from Jogador)) EXECUTE PROCEDURE AdicionaPontuacao();
+  ON Cartao FOR EACH ROW EXECUTE FUNCTION AdicionaSuspensao();
